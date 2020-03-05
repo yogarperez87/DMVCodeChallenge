@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Text;
+using System.Linq;
 
 namespace DmvAppointmentScheduler
 {
@@ -14,5 +15,13 @@ namespace DmvAppointmentScheduler
     public class CustomerList
     {
         public List<Customer> Customer { get; set; }
+
+        public void sort()
+        {
+            Customer =
+               Customer
+                   .OrderByDescending(c => Convert.ToDouble(c.duration))
+                   .ToList<Customer>();
+        }
     }
 }

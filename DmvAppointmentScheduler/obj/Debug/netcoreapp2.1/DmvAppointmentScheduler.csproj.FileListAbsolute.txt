@@ -73,3 +73,15 @@ C:\Users\mensinkja\OneDrive - National Oilwell Varco\OneDDocuments\Projects\Inte
 C:\Users\mensinkja\OneDrive - National Oilwell Varco\OneDDocuments\Projects\Interviews\Code Challenge\DMV Code Challenge\dmvcodechallenge\DmvAppointmentScheduler\obj\Debug\netcoreapp2.1\DmvAppointmentScheduler.AssemblyInfo.cs
 C:\Users\mensinkja\OneDrive - National Oilwell Varco\OneDDocuments\Projects\Interviews\Code Challenge\DMV Code Challenge\dmvcodechallenge\DmvAppointmentScheduler\obj\Debug\netcoreapp2.1\DmvAppointmentScheduler.dll
 C:\Users\mensinkja\OneDrive - National Oilwell Varco\OneDDocuments\Projects\Interviews\Code Challenge\DMV Code Challenge\dmvcodechallenge\DmvAppointmentScheduler\obj\Debug\netcoreapp2.1\DmvAppointmentScheduler.pdb
+E:\work\work\tellers\dmvcodechallenge\DmvAppointmentScheduler\bin\Debug\netcoreapp2.1\InputData\CustomerData.json
+E:\work\work\tellers\dmvcodechallenge\DmvAppointmentScheduler\bin\Debug\netcoreapp2.1\InputData\TellerData.json
+E:\work\work\tellers\dmvcodechallenge\DmvAppointmentScheduler\bin\Debug\netcoreapp2.1\DmvAppointmentScheduler.deps.json
+E:\work\work\tellers\dmvcodechallenge\DmvAppointmentScheduler\bin\Debug\netcoreapp2.1\DmvAppointmentScheduler.runtimeconfig.json
+E:\work\work\tellers\dmvcodechallenge\DmvAppointmentScheduler\bin\Debug\netcoreapp2.1\DmvAppointmentScheduler.runtimeconfig.dev.json
+E:\work\work\tellers\dmvcodechallenge\DmvAppointmentScheduler\bin\Debug\netcoreapp2.1\DmvAppointmentScheduler.dll
+E:\work\work\tellers\dmvcodechallenge\DmvAppointmentScheduler\bin\Debug\netcoreapp2.1\DmvAppointmentScheduler.pdb
+E:\work\work\tellers\dmvcodechallenge\DmvAppointmentScheduler\obj\Debug\netcoreapp2.1\DmvAppointmentScheduler.csprojAssemblyReference.cache
+E:\work\work\tellers\dmvcodechallenge\DmvAppointmentScheduler\obj\Debug\netcoreapp2.1\DmvAppointmentScheduler.AssemblyInfoInputs.cache
+E:\work\work\tellers\dmvcodechallenge\DmvAppointmentScheduler\obj\Debug\netcoreapp2.1\DmvAppointmentScheduler.AssemblyInfo.cs
+E:\work\work\tellers\dmvcodechallenge\DmvAppointmentScheduler\obj\Debug\netcoreapp2.1\DmvAppointmentScheduler.dll
+E:\work\work\tellers\dmvcodechallenge\DmvAppointmentScheduler\obj\Debug\netcoreapp2.1\DmvAppointmentScheduler.pdb

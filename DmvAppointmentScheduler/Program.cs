@@ -36,16 +36,38 @@ namespace DmvAppointmentScheduler
             return tellerData;
 
         }
+        
         static void Calculation(CustomerList customers, TellerList tellers)
         {
             // Your code goes here .....
-            // Re-write this method to be more efficient instead of a assigning all customers to the same teller
-            foreach(Customer customer in customers.Customer)
+            // Re-write this method to be more efficient instead of a assigning all customers to the same teller           
+
+            tellers.sort();
+            customers.sort();
+
+            foreach (var customer in customers.Customer)
             {
-                var appointment = new Appointment(customer, tellers.Teller[0]);
-                appointmentList.Add(appointment);
+                double minAppAccTime = double.MaxValue;
+                Appointment selectedApp = null;
+                var tellerIndex = -1;
+
+                for (int i = 0; i < tellers.Teller.Count; i++)
+                {
+                    var teller = tellers.Teller[i];
+                    Appointment appointment = new Appointment(customer, teller);
+                    var totalDuration = appointment.duration + teller.accumulatedTime;
+                    if (minAppAccTime >= totalDuration)
+                    {
+                        minAppAccTime = totalDuration;
+                        selectedApp = appointment;
+                        tellerIndex = i;
+                    }
+                }
+                tellers.Teller[tellerIndex].accumulatedTime = minAppAccTime;
+                appointmentList.Add(selectedApp);
             }
         }
+
         static void OutputTotalLengthToConsole()
         {
             var tellerAppointments =
